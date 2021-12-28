@@ -1,0 +1,1 @@
+import{r as e}from"./index.764959f2.js";function r(r){return e({url:"/feeds",params:r})}function t(r,t){const a=new FormData;return r.forEach((e=>{a.append("file[]",e)})),Object.entries(t).forEach((([e,r])=>{a.append(e,r)})),e({url:"/user/feeds",method:"POST",headers:{"Content-Type":"multipart/form-data"},data:a,timeout:0})}export{t as c,r as g};

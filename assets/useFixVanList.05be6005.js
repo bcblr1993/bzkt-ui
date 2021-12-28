@@ -1,0 +1,1 @@
+import{m as e,R as o,S as n,U as s,V as t}from"./vendor.986fff3c.js";function a(){const o=e();return e=>{o.push({name:"Video",params:{videoId:e.toString()}})}}function r(e){const a=()=>{var o;null==(o=e.value)||o.check()},r=()=>{document.body.addEventListener("scroll",a)},c=()=>{document.body.removeEventListener("scroll",a)};o(r),n(r),s(c),t(c)}export{r as a,a as u};

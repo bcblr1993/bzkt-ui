@@ -1,0 +1,1 @@
+import{W as o}from"./vendor.986fff3c.js";function s(s=document.body){const n=ref(0);o((()=>{n.value=s.scrollTop})),onActivated((async()=>{s.scrollTop=n.value}))}const n="_listContainer_171su_1";export{n as l,s as u};
